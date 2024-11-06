@@ -1,9 +1,14 @@
-var http = require('http');
-var fs = require('fs')
-http.createServer(function(req,res){
-    fs.readFile('home.html',function(err,data){
-        res.writeHead(200,{'Content-Type':'text/html'});
-        res.write(data);
-        return res.end();
-    });
-}).listen(8080);
+var express=require('express');
+var app=express();
+app.use(express.json());
+app.use(express.urlencoded({
+    extended:true
+}));
+app.use(express.static('public'));
+app.use(express.static('public/CSS'));
+app.use(express.static('public/IMG'));
+app.set('view engine','ejs');
+app.set('views','./views');
+app.get('/',function(req,res){res.render('portfolio');});
+app.listen(4000);
+

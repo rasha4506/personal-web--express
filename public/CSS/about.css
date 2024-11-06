@@ -1,0 +1,112 @@
+.about{
+    overflow-x: hidden;
+    float: left;
+    background-color: rgb(211, 126, 126);
+    width: 100%;
+}
+.p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgb(78, 76, 76);
+    text-align: center;
+}
+/*animation
+@keyframes About {
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: rgb(129, 218, 218);}
+    }
+.about:hover{
+    background-color: rgb(255, 255, 255);
+    animation-name: About;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    background-color: rgb(129, 218, 218);
+}
+    */
+.me3{
+    float: left;
+    width: 400px;
+    height: 500px;
+    margin-right: 0px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+.heading1{
+    margin-bottom: 0px;
+    height: 70px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+    margin-top: 50px;
+    margin-left: 0px;
+    width:800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+.para{
+    width: 500px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+.c2{
+    display: inline-flex;
+}
+.edu{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: .1rem solid  rgb(78, 76, 76);
+    float: left;
+    height: 150px;
+    width: 350px;
+    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.education{
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.edu1{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 76, 76);
+}
+#icon{
+    margin-top: 12px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills{
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: .1rem solid  rgb(78, 76, 76);
+    float: right;
+    margin-right: 200px;
+    height: 300px;
+    width: 300px;
+}
+.list{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(78, 76, 76);
+}
+.item{
+    margin-top: 12px;
+}
